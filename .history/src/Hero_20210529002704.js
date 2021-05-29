@@ -25,9 +25,9 @@ const Hero = ({ handleLogout }) => {
   
   <div class="nav-links">
     <a href="https://know-ur-weather.netlify.app/" >Home</a>
-    <a href="https://openweathermap-cyan.vercel.app/" >Weather Maps</a>
-    {/* <a href="https://earth.nullschool.net/" target="_blank" rel="noopener noreferrer" >Global weather</a> */}
-    <a href="https://earth.nullschool.net/" onclick='window.open("https://earth.nullschool.net/");return false;' target="_blank">Global Weather</a>
+    <a href="https://openweathermap-cyan.vercel.app/" >Weather maps</a>
+    <a href="https://earth.nullschool.net/" target="_blank" rel="noopener noreferrer" >Global weather</a>
+    <a href="#" onclick='window.open(");return false;'></a>
     <a onClick={handleLogout}>Logout</a>
   </div>
 </div>
